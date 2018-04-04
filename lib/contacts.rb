@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
     rtn = []
     v.each do |k_, v_|
       if k_ == :favorite_ice_cream_flavors
-        iv_.each do |e|
+        v_.each do |e|
           if e != "strawberry"
             rtn << e
           end
