@@ -26,6 +26,7 @@ def remove_strawberry(contacts)
         end
       end
     end
-    outV[:favorite_ice_cream_flavors] = rtn
+    v[:favorite_ice_cream_flavors] = rtn
   end
+  contacts
 end
