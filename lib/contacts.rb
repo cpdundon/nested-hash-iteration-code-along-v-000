@@ -17,7 +17,7 @@ require 'pry'
 def remove_strawberry(contacts)
   contacts.each do |outK, outV|
     outV.each do |inK, inV|
-      
+      if inK == 
     end
   end
 end
